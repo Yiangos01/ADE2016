@@ -1,7 +1,7 @@
 import sys
 import csv
 #mape=open("mapperout.txt",'w')
-#input comes from STDIN (standard 
+# input comes from STDIN (standard 
 data = sys.stdin.readlines()
 csvreader = csv.reader(data, delimiter=',')
 for row in csvreader:
