@@ -27,7 +27,7 @@ for line in sys.stdin:
         current_word = word
 	
 
-# last word num!
+
 if current_word == word:
     print (current_word, current_count)
 

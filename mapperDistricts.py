@@ -33,7 +33,7 @@ for row in csvreader:
 					loc=row[0];
 					bestdist=dist
 			print(loc+"\t1")
-			print(str(lati)+","+str(longi))
+			#print(str(lati)+","+str(longi))
 		#else :
 			#print ("wrong line\n")
 		bestdist=1000
